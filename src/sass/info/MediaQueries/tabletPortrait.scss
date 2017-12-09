@@ -1,0 +1,132 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  //    @import '../mobile';
+  & {
+    main {
+      overflow: hidden;
+    }
+    header,
+    footer {
+      background-position: 75% center;
+      img {
+        float: none;
+      }
+      .header-title {
+        line-height: 1;
+      }
+    }
+    .header-subtitle {
+      font-size: 15px;
+      line-height: 1;
+    }
+    .ml20 {
+      margin-left: 0;
+    }
+    .question-item {
+      max-width: 50%;
+      float: left;
+      text-align: center;
+      &:before {
+        display: none;
+      }
+    }
+    .text-right {
+      text-align: center;
+    }
+    .question-item.icon1,
+    .question-item.icon3 {
+      margin-bottom: 0;
+    }
+    .question-item h4 {
+      margin-top: 20px;
+    }
+    .answers-list {
+      margin: 255px auto 0 35px;
+      min-height: 335px;
+    }
+    .answers {
+      padding: 60px 0 100px;
+    }
+    .traning {
+      padding: 60px 0;
+      background: none;
+    }
+    .traning-item {
+      margin-top: 30px;
+    }
+    .quote-title {
+      br {
+        display: none;
+      }
+    }
+    .first-img img {
+      left: 0;
+    }
+    .programs-item h3 {
+      font-size: 23px;
+    }
+    .plan-items:before {
+      display: none;
+    }
+    .md-first {
+      -ms-flex-order: -1;
+      order: -1;
+    }
+    .text-left,
+    .text-right {
+      text-align: center;
+    }
+    .plan-items {
+      min-height: inherit;
+      img {
+        max-height: 150px;
+      }
+    }
+    .plan-items .item h4 {
+      font-size: 14px;
+    }
+    .mt120, .mt135 {
+      margin-top: 0;
+    }
+    .system-title {
+      br {
+        display: none;
+      }
+    }
+    .system-concurents, .system-you {
+      max-width: 275px;
+      .system-item {
+        font-size: 12px;
+      }
+    }
+    .system-concurents .title, .system-you .title {
+      font-size: 32px;
+    }
+    .format-item .title span {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .format-item p, .format-box p {
+      br {
+        display: none;
+      }
+    }
+    .order-btn {
+      font-size: 16px;
+    }
+    .maths-item {
+      margin-top: -40px;
+      margin-bottom: 30px;
+    }
+    .m-title {
+      br {
+        display: none;
+      }
+    }
+    .registration-form {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}

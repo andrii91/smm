@@ -1,0 +1,17 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+  .first-img img {
+    left: -180px;
+  }
+  .question-item {
+    max-width: 100%;
+    float: none;
+  }
+  .question-item h4 {
+    br {
+      display: none;
+    }
+  }
+}

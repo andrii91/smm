@@ -1,0 +1,178 @@
+& {
+  footer img,
+  header img {
+    margin-right: 0;
+    width: 100%;
+    float: none;
+  }
+  .header-title {
+    font-size: 25px;
+  }
+  .header-subtitle,
+  .order-btn {
+    font-size: 17px;
+    line-height: 1;
+    br {
+      display: none;
+    }
+  }
+  main {
+    overflow: hidden;
+  }
+  .question-title,
+  .answers-title,
+  .traning-title,
+  .programs-title,
+  .plan-title,
+  .first-item .first-title,
+  .system-title, .format-title, .maths-title {
+    font-size: 25px;
+  }
+  .format-item .title span {
+    font-size: 14px;
+  }
+  .maths-title span {
+    font-size: 16px;
+  }
+  .programs-item h3 {
+    font-size: 20px;
+  }
+  .plan-info {
+    font-size: 18px;
+    br {
+      display: none;
+    }
+  }
+  .question-item.icon1,
+  .question-item.icon3,
+  .question-item_large {
+    margin-bottom: 40px;
+  }
+  .question-item {
+    text-align: center;
+  }
+  .answers,
+  .traning {
+    padding: 60px 0;
+  }
+  .answers-list {
+    width: 100%;
+    li {
+      position: static;
+      padding: 10px !important;
+      width: 100%;
+      height: inherit;
+      transform: none !important;
+      background: rgba(0, 0, 0, 0.8);
+      margin-bottom: 10px;
+      h4,
+      p {
+        color: #fff;
+      }
+      &:before {
+        display: none;
+      }
+    }
+  }
+  .traning-item {
+    margin-top: 30px;
+  }
+  .traning {
+    background: none;
+  }
+  .quote-title {
+    font-size: 18px;
+  }
+  .quote {
+    button {
+      text-align: center;
+      width: 100%;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  }
+  .programs-item {
+    margin-top: 30px;
+  }
+  .program-accordion .accordion-title {
+    padding-left: 65px;
+  }
+  .program-accordion .accordion-title:before {
+    width: 50px;
+  }
+  .plan-items {
+    padding-right: 0;
+    &:before {
+      display: none;
+    }
+  }
+  .plan-items {
+    text-align: center;
+    img {
+      //      width: 100%;
+      max-height: 150px;
+    }
+    h4,
+    p {
+      br {
+        display: none;
+      }
+    }
+  }
+  .mt120,
+  .mt135 {
+    margin-top: 0;
+  }
+  .text-left,
+  .text-right {
+    text-align: center;
+  }
+  .order-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .system-steps {
+    display: none;
+  }
+  .system-concurents .title, .system-you .title, .questions-title {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .format-item p {
+    margin-bottom: 40px;
+    br {
+      display: none;
+    }
+  }
+  .format-box {
+    padding: 10px;
+    br {
+      display: none;
+    }
+  }
+  .maths, .registration {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .maths-item {
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+  .m-title {
+    font-size: 20px;
+  }
+  .registration-form {
+    padding: 10px;
+  }
+  .questions {
+    padding: 35px 0;
+    text-align: center;
+  }
+  .questions-info {
+    font-size: 16px;
+    br {
+      display: none;
+    }
+  }
+}
