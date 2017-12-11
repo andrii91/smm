@@ -53,5 +53,37 @@ $(document).ready(function () {
       opacity: 0,
     }, 400);
   });
+  
+    $('.gmap').each(function () {
+    var container = this;
+
+    var mapOptions = {
+      zoom: $(container).data('zoom'),
+      zoomControl: true,
+      mapTypeControl: false,
+      streetViewControl: false,
+      scrollwheel: false, //zoom on scroll
+      draggable: true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(container, mapOptions);
+    var geocoder = new google.maps.Geocoder();
+
+    geocoder.geocode({
+        'address': $(container).data('address')
+      },
+      function (results, status) {
+        if (status === google.maps.GeocoderStatus.OK) {
+          new google.maps.Marker({
+            position: results[0].geometry.location,
+            map: map,
+            icon: $(container).data('marker')
+          });
+          map.setCenter(results[0].geometry.location);
+        }
+      }
+    );
+
+  });
 
 });
